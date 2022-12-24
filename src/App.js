@@ -22,7 +22,7 @@ function App() {
     setMenuItems(newItems)
   }
 
-  if (items.length < 0 && message == 8) {
+  if (items.length < 0 && message === 8) {
     setCategories("")
   }
   
