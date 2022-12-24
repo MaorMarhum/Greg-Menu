@@ -21,6 +21,10 @@ function App() {
     const newItems = items.filter((item) => item.category === category)
     setMenuItems(newItems)
   }
+
+  if (items.length < 0 && message == 8) {
+    setCategories("")
+  }
   
   return (
     <main>
