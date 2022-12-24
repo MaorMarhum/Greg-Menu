@@ -42,7 +42,7 @@ function App() {
         <Categories filterItems={filterItems} categories={categories} />
         <h4>{message}</h4>
         {
-          menuItems == initial ? <h4>ארוחות הבוקר (זוגי/יחיד) מוגשות עם קפה קטן ושתייה קרה קטנה (תפוזים/גזר/לימונדה). שינוי או הגדלת שתייה כרוכה בתוספת תשלום.</h4> : null
+          menuItems === initial ? <h4>ארוחות הבוקר (זוגי/יחיד) מוגשות עם קפה קטן ושתייה קרה קטנה (תפוזים/גזר/לימונדה). שינוי או הגדלת שתייה כרוכה בתוספת תשלום.</h4> : null
         }
         <br></br>
         <Menu items={menuItems}/>
