@@ -164,6 +164,7 @@ Menu
   margin-bottom: 4rem;
   display: flex;
   overflow-x: scroll;
+  direction: rtl;
 }
 .filter-btn {
   background: transparent;
