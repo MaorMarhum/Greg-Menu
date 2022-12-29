@@ -20,7 +20,10 @@ function App() {
       setMessage(`ארוחות הבוקר (זוגי/יחיד) מוגשות עם קפה קטן ושתייה קרה קטנה (תפוזים/גזר/לימונדה). שינוי או הגדלת שתייה כרוכה בתוספת תשלום.`)
     } else if (category === 'סלטים') {
       setMessage('מוגשים עם לחם הבית, טחינה וסלסת פלפלים.')
-    } else {
+    } else if (category === 'כריכים') {
+      setMessage(`המנות מוגשות עם סלט אישי ירוק/קצוץ`)
+    }
+    else {
       setMessage("")
     }
     const newItems = items.filter((item) => item.category === category)
